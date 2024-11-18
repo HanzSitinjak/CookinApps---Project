@@ -56,6 +56,7 @@
 		86952CBC2CEB021900C44404 /* onboardingslideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBB2CEB021900C44404 /* onboardingslideModel.swift */; };
 		86952CBE2CEB022300C44404 /* onboardingslideRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */; };
 		86952CC02CEB022E00C44404 /* onboardingslideInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */; };
+		86952CC22CEB341800C44404 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 86952CC12CEB341800C44404 /* README.md */; };
 		F8D6A8FA54FA7E0128C54358 /* Pods_GoodFoodProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB1974BB48ECD3259FEED8 /* Pods_GoodFoodProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,7 @@
 		86952CBB2CEB021900C44404 /* onboardingslideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideModel.swift; sourceTree = "<group>"; };
 		86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideRouter.swift; sourceTree = "<group>"; };
 		86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideInterface.swift; sourceTree = "<group>"; };
+		86952CC12CEB341800C44404 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		861845D32CEA18D2007A0FD5 = {
 			isa = PBXGroup;
 			children = (
+				86952CC12CEB341800C44404 /* README.md */,
 				861845DE2CEA18D2007A0FD5 /* GoodFoodProject */,
 				861845DD2CEA18D2007A0FD5 /* Products */,
 				E9B11E65153A23DD8B49A290 /* Pods */,
@@ -409,6 +412,7 @@
 				8618462F2CEA2493007A0FD5 /* registerpageView.storyboard in Resources */,
 				861845E72CEA18D2007A0FD5 /* Main.storyboard in Resources */,
 				8618463D2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard in Resources */,
+				86952CC22CEB341800C44404 /* README.md in Resources */,
 				861846132CEA233E007A0FD5 /* homepageView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
