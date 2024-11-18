@@ -13,9 +13,56 @@
 		861845E72CEA18D2007A0FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861845E52CEA18D2007A0FD5 /* Main.storyboard */; };
 		861845E92CEA18D8007A0FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861845E82CEA18D8007A0FD5 /* Assets.xcassets */; };
 		861845EC2CEA18D8007A0FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861845EA2CEA18D8007A0FD5 /* LaunchScreen.storyboard */; };
+		861845FB2CEA1E94007A0FD5 /* homepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861845FA2CEA1E94007A0FD5 /* homepageView.swift */; };
+		861845FD2CEA1EA5007A0FD5 /* homepageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861845FC2CEA1EA5007A0FD5 /* homepageRouter.swift */; };
+		861845FF2CEA1EC1007A0FD5 /* homepageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861845FE2CEA1EC1007A0FD5 /* homepageInteractor.swift */; };
+		861846012CEA1ECC007A0FD5 /* homepagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846002CEA1ECC007A0FD5 /* homepagePresenter.swift */; };
+		861846032CEA1EDC007A0FD5 /* homepageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846022CEA1EDC007A0FD5 /* homepageModel.swift */; };
+		861846052CEA1EEF007A0FD5 /* homepageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846042CEA1EEF007A0FD5 /* homepageInterface.swift */; };
+		861846132CEA233E007A0FD5 /* homepageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861846122CEA233E007A0FD5 /* homepageView.storyboard */; };
+		861846152CEA2376007A0FD5 /* loginpageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861846142CEA2376007A0FD5 /* loginpageView.storyboard */; };
+		861846172CEA2385007A0FD5 /* loginpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846162CEA2385007A0FD5 /* loginpageView.swift */; };
+		861846192CEA23C0007A0FD5 /* loginpageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846182CEA23C0007A0FD5 /* loginpageInteractor.swift */; };
+		8618461B2CEA23D0007A0FD5 /* loginpagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618461A2CEA23D0007A0FD5 /* loginpagePresenter.swift */; };
+		8618461D2CEA23DD007A0FD5 /* loginpageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618461C2CEA23DD007A0FD5 /* loginpageModel.swift */; };
+		8618461F2CEA23F4007A0FD5 /* loginpageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618461E2CEA23F4007A0FD5 /* loginpageInterface.swift */; };
+		861846212CEA2405007A0FD5 /* loginpageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846202CEA2405007A0FD5 /* loginpageRouter.swift */; };
+		861846232CEA2423007A0FD5 /* registerpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846222CEA2423007A0FD5 /* registerpageView.swift */; };
+		861846252CEA2431007A0FD5 /* registerpageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846242CEA2431007A0FD5 /* registerpageInteractor.swift */; };
+		861846272CEA2440007A0FD5 /* registerpagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846262CEA2440007A0FD5 /* registerpagePresenter.swift */; };
+		861846292CEA245B007A0FD5 /* registerpageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846282CEA245B007A0FD5 /* registerpageModel.swift */; };
+		8618462B2CEA246C007A0FD5 /* registerpageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618462A2CEA246C007A0FD5 /* registerpageRouter.swift */; };
+		8618462D2CEA2482007A0FD5 /* registerpageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618462C2CEA2482007A0FD5 /* registerpageInterface.swift */; };
+		8618462F2CEA2493007A0FD5 /* registerpageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8618462E2CEA2493007A0FD5 /* registerpageView.storyboard */; };
+		861846312CEA24B8007A0FD5 /* forgetpasswordPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846302CEA24B8007A0FD5 /* forgetpasswordPageView.swift */; };
+		861846332CEA24C5007A0FD5 /* forgetpasswordPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846322CEA24C5007A0FD5 /* forgetpasswordPageInteractor.swift */; };
+		861846352CEA24D2007A0FD5 /* forgetpasswordPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846342CEA24D2007A0FD5 /* forgetpasswordPagePresenter.swift */; };
+		861846372CEA24DB007A0FD5 /* forgetpasswordPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846362CEA24DB007A0FD5 /* forgetpasswordPageModel.swift */; };
+		861846392CEA24E6007A0FD5 /* forgetpasswordPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861846382CEA24E6007A0FD5 /* forgetpasswordPageRouter.swift */; };
+		8618463B2CEA24EF007A0FD5 /* forgetpasswordPageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8618463A2CEA24EF007A0FD5 /* forgetpasswordPageInterface.swift */; };
+		8618463D2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8618463C2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard */; };
+		86952CA12CEAF41200C44404 /* splashpageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86952CA02CEAF41200C44404 /* splashpageView.storyboard */; };
+		86952CA32CEAF42000C44404 /* splashpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CA22CEAF42000C44404 /* splashpageView.swift */; };
+		86952CA52CEAF43200C44404 /* splashpageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CA42CEAF43200C44404 /* splashpageInteractor.swift */; };
+		86952CA72CEAF43F00C44404 /* splashpagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CA62CEAF43F00C44404 /* splashpagePresenter.swift */; };
+		86952CA92CEAF44D00C44404 /* splashpageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CA82CEAF44D00C44404 /* splashpageModel.swift */; };
+		86952CAB2CEAF45C00C44404 /* splashpageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CAA2CEAF45C00C44404 /* splashpageRouter.swift */; };
+		86952CAD2CEAF46700C44404 /* splashpageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CAC2CEAF46700C44404 /* splashpageInterface.swift */; };
+		86952CB22CEAF6EE00C44404 /* splashData.json in Resources */ = {isa = PBXBuildFile; fileRef = 86952CB12CEAF6EE00C44404 /* splashData.json */; };
+		86952CB42CEB01E400C44404 /* onboardingslideView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86952CB32CEB01E400C44404 /* onboardingslideView.storyboard */; };
+		86952CB62CEB01F700C44404 /* onboardingslideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CB52CEB01F700C44404 /* onboardingslideView.swift */; };
+		86952CB82CEB020300C44404 /* onboardingslideInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CB72CEB020300C44404 /* onboardingslideInteractor.swift */; };
+		86952CBA2CEB020F00C44404 /* onboardingslidePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CB92CEB020F00C44404 /* onboardingslidePresenter.swift */; };
+		86952CBC2CEB021900C44404 /* onboardingslideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBB2CEB021900C44404 /* onboardingslideModel.swift */; };
+		86952CBE2CEB022300C44404 /* onboardingslideRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */; };
+		86952CC02CEB022E00C44404 /* onboardingslideInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */; };
+		F8D6A8FA54FA7E0128C54358 /* Pods_GoodFoodProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB1974BB48ECD3259FEED8 /* Pods_GoodFoodProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04AFD7FE77B0E9043CEFEABA /* Pods-GoodFoodProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodFoodProject.release.xcconfig"; path = "Target Support Files/Pods-GoodFoodProject/Pods-GoodFoodProject.release.xcconfig"; sourceTree = "<group>"; };
+		1BD72E7CFBE50C0B6131421B /* Pods-GoodFoodProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodFoodProject.debug.xcconfig"; path = "Target Support Files/Pods-GoodFoodProject/Pods-GoodFoodProject.debug.xcconfig"; sourceTree = "<group>"; };
+		2EDB1974BB48ECD3259FEED8 /* Pods_GoodFoodProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodFoodProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861845DC2CEA18D2007A0FD5 /* GoodFoodProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodFoodProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861845DF2CEA18D2007A0FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		861845E12CEA18D2007A0FD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +71,49 @@
 		861845E82CEA18D8007A0FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861845EB2CEA18D8007A0FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861845ED2CEA18D8007A0FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861845FA2CEA1E94007A0FD5 /* homepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageView.swift; sourceTree = "<group>"; };
+		861845FC2CEA1EA5007A0FD5 /* homepageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageRouter.swift; sourceTree = "<group>"; };
+		861845FE2CEA1EC1007A0FD5 /* homepageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageInteractor.swift; sourceTree = "<group>"; };
+		861846002CEA1ECC007A0FD5 /* homepagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepagePresenter.swift; sourceTree = "<group>"; };
+		861846022CEA1EDC007A0FD5 /* homepageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageModel.swift; sourceTree = "<group>"; };
+		861846042CEA1EEF007A0FD5 /* homepageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageInterface.swift; sourceTree = "<group>"; };
+		861846122CEA233E007A0FD5 /* homepageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = homepageView.storyboard; sourceTree = "<group>"; };
+		861846142CEA2376007A0FD5 /* loginpageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loginpageView.storyboard; sourceTree = "<group>"; };
+		861846162CEA2385007A0FD5 /* loginpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpageView.swift; sourceTree = "<group>"; };
+		861846182CEA23C0007A0FD5 /* loginpageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpageInteractor.swift; sourceTree = "<group>"; };
+		8618461A2CEA23D0007A0FD5 /* loginpagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpagePresenter.swift; sourceTree = "<group>"; };
+		8618461C2CEA23DD007A0FD5 /* loginpageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpageModel.swift; sourceTree = "<group>"; };
+		8618461E2CEA23F4007A0FD5 /* loginpageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpageInterface.swift; sourceTree = "<group>"; };
+		861846202CEA2405007A0FD5 /* loginpageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpageRouter.swift; sourceTree = "<group>"; };
+		861846222CEA2423007A0FD5 /* registerpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpageView.swift; sourceTree = "<group>"; };
+		861846242CEA2431007A0FD5 /* registerpageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpageInteractor.swift; sourceTree = "<group>"; };
+		861846262CEA2440007A0FD5 /* registerpagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpagePresenter.swift; sourceTree = "<group>"; };
+		861846282CEA245B007A0FD5 /* registerpageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpageModel.swift; sourceTree = "<group>"; };
+		8618462A2CEA246C007A0FD5 /* registerpageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpageRouter.swift; sourceTree = "<group>"; };
+		8618462C2CEA2482007A0FD5 /* registerpageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpageInterface.swift; sourceTree = "<group>"; };
+		8618462E2CEA2493007A0FD5 /* registerpageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = registerpageView.storyboard; sourceTree = "<group>"; };
+		861846302CEA24B8007A0FD5 /* forgetpasswordPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetpasswordPageView.swift; sourceTree = "<group>"; };
+		861846322CEA24C5007A0FD5 /* forgetpasswordPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetpasswordPageInteractor.swift; sourceTree = "<group>"; };
+		861846342CEA24D2007A0FD5 /* forgetpasswordPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetpasswordPagePresenter.swift; sourceTree = "<group>"; };
+		861846362CEA24DB007A0FD5 /* forgetpasswordPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetpasswordPageModel.swift; sourceTree = "<group>"; };
+		861846382CEA24E6007A0FD5 /* forgetpasswordPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetpasswordPageRouter.swift; sourceTree = "<group>"; };
+		8618463A2CEA24EF007A0FD5 /* forgetpasswordPageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetpasswordPageInterface.swift; sourceTree = "<group>"; };
+		8618463C2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = forgetpasswordPageView.storyboard; sourceTree = "<group>"; };
+		86952CA02CEAF41200C44404 /* splashpageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = splashpageView.storyboard; sourceTree = "<group>"; };
+		86952CA22CEAF42000C44404 /* splashpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashpageView.swift; sourceTree = "<group>"; };
+		86952CA42CEAF43200C44404 /* splashpageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashpageInteractor.swift; sourceTree = "<group>"; };
+		86952CA62CEAF43F00C44404 /* splashpagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashpagePresenter.swift; sourceTree = "<group>"; };
+		86952CA82CEAF44D00C44404 /* splashpageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashpageModel.swift; sourceTree = "<group>"; };
+		86952CAA2CEAF45C00C44404 /* splashpageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashpageRouter.swift; sourceTree = "<group>"; };
+		86952CAC2CEAF46700C44404 /* splashpageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashpageInterface.swift; sourceTree = "<group>"; };
+		86952CB12CEAF6EE00C44404 /* splashData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = splashData.json; sourceTree = "<group>"; };
+		86952CB32CEB01E400C44404 /* onboardingslideView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onboardingslideView.storyboard; sourceTree = "<group>"; };
+		86952CB52CEB01F700C44404 /* onboardingslideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideView.swift; sourceTree = "<group>"; };
+		86952CB72CEB020300C44404 /* onboardingslideInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideInteractor.swift; sourceTree = "<group>"; };
+		86952CB92CEB020F00C44404 /* onboardingslidePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslidePresenter.swift; sourceTree = "<group>"; };
+		86952CBB2CEB021900C44404 /* onboardingslideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideModel.swift; sourceTree = "<group>"; };
+		86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideRouter.swift; sourceTree = "<group>"; };
+		86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D6A8FA54FA7E0128C54358 /* Pods_GoodFoodProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +133,8 @@
 			children = (
 				861845DE2CEA18D2007A0FD5 /* GoodFoodProject */,
 				861845DD2CEA18D2007A0FD5 /* Products */,
+				E9B11E65153A23DD8B49A290 /* Pods */,
+				A70903B0BAE47C59CEDF471F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +149,8 @@
 		861845DE2CEA18D2007A0FD5 /* GoodFoodProject */ = {
 			isa = PBXGroup;
 			children = (
+				86952C9C2CEAEF0800C44404 /* Resource */,
+				86952C9B2CEAEF0000C44404 /* Module */,
 				861845DF2CEA18D2007A0FD5 /* AppDelegate.swift */,
 				861845E12CEA18D2007A0FD5 /* SceneDelegate.swift */,
 				861845E32CEA18D2007A0FD5 /* ViewController.swift */,
@@ -67,6 +162,184 @@
 			path = GoodFoodProject;
 			sourceTree = "<group>";
 		};
+		861845F32CEA1E0C007A0FD5 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				86952C9A2CEAEECD00C44404 /* onBoardingFinal */,
+				86952C992CEAEEBB00C44404 /* onBoardingSlide */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		861845F42CEA1E1A007A0FD5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				861845F72CEA1E3D007A0FD5 /* ForgetPassword */,
+				861845F62CEA1E33007A0FD5 /* Register */,
+				861845F52CEA1E28007A0FD5 /* Login */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		861845F52CEA1E28007A0FD5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				861846162CEA2385007A0FD5 /* loginpageView.swift */,
+				861846182CEA23C0007A0FD5 /* loginpageInteractor.swift */,
+				8618461A2CEA23D0007A0FD5 /* loginpagePresenter.swift */,
+				8618461C2CEA23DD007A0FD5 /* loginpageModel.swift */,
+				861846202CEA2405007A0FD5 /* loginpageRouter.swift */,
+				8618461E2CEA23F4007A0FD5 /* loginpageInterface.swift */,
+				861846142CEA2376007A0FD5 /* loginpageView.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		861845F62CEA1E33007A0FD5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				861846222CEA2423007A0FD5 /* registerpageView.swift */,
+				861846242CEA2431007A0FD5 /* registerpageInteractor.swift */,
+				861846262CEA2440007A0FD5 /* registerpagePresenter.swift */,
+				861846282CEA245B007A0FD5 /* registerpageModel.swift */,
+				8618462A2CEA246C007A0FD5 /* registerpageRouter.swift */,
+				8618462C2CEA2482007A0FD5 /* registerpageInterface.swift */,
+				8618462E2CEA2493007A0FD5 /* registerpageView.storyboard */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		861845F72CEA1E3D007A0FD5 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				861846302CEA24B8007A0FD5 /* forgetpasswordPageView.swift */,
+				861846322CEA24C5007A0FD5 /* forgetpasswordPageInteractor.swift */,
+				861846342CEA24D2007A0FD5 /* forgetpasswordPagePresenter.swift */,
+				861846362CEA24DB007A0FD5 /* forgetpasswordPageModel.swift */,
+				861846382CEA24E6007A0FD5 /* forgetpasswordPageRouter.swift */,
+				8618463A2CEA24EF007A0FD5 /* forgetpasswordPageInterface.swift */,
+				8618463C2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		861845F82CEA1E56007A0FD5 /* MainFeature */ = {
+			isa = PBXGroup;
+			children = (
+				861845F92CEA1E66007A0FD5 /* HomePage */,
+			);
+			path = MainFeature;
+			sourceTree = "<group>";
+		};
+		861845F92CEA1E66007A0FD5 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				861845FA2CEA1E94007A0FD5 /* homepageView.swift */,
+				861845FE2CEA1EC1007A0FD5 /* homepageInteractor.swift */,
+				861846002CEA1ECC007A0FD5 /* homepagePresenter.swift */,
+				861846022CEA1EDC007A0FD5 /* homepageModel.swift */,
+				861845FC2CEA1EA5007A0FD5 /* homepageRouter.swift */,
+				861846042CEA1EEF007A0FD5 /* homepageInterface.swift */,
+				861846122CEA233E007A0FD5 /* homepageView.storyboard */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		86952C992CEAEEBB00C44404 /* onBoardingSlide */ = {
+			isa = PBXGroup;
+			children = (
+				86952CB32CEB01E400C44404 /* onboardingslideView.storyboard */,
+				86952CB52CEB01F700C44404 /* onboardingslideView.swift */,
+				86952CB72CEB020300C44404 /* onboardingslideInteractor.swift */,
+				86952CB92CEB020F00C44404 /* onboardingslidePresenter.swift */,
+				86952CBB2CEB021900C44404 /* onboardingslideModel.swift */,
+				86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */,
+				86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */,
+			);
+			path = onBoardingSlide;
+			sourceTree = "<group>";
+		};
+		86952C9A2CEAEECD00C44404 /* onBoardingFinal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = onBoardingFinal;
+			sourceTree = "<group>";
+		};
+		86952C9B2CEAEF0000C44404 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				86952C9F2CEAF3F900C44404 /* SplashPage */,
+				861845F32CEA1E0C007A0FD5 /* OnBoarding */,
+				861845F42CEA1E1A007A0FD5 /* Authentication */,
+				861845F82CEA1E56007A0FD5 /* MainFeature */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		86952C9C2CEAEF0800C44404 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				86952CAE2CEAF63100C44404 /* ModelData */,
+				86952C9E2CEAEF6C00C44404 /* Component */,
+				86952C9D2CEAEF6200C44404 /* Extention */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		86952C9D2CEAEF6200C44404 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		86952C9E2CEAEF6C00C44404 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		86952C9F2CEAF3F900C44404 /* SplashPage */ = {
+			isa = PBXGroup;
+			children = (
+				86952CA02CEAF41200C44404 /* splashpageView.storyboard */,
+				86952CA22CEAF42000C44404 /* splashpageView.swift */,
+				86952CA42CEAF43200C44404 /* splashpageInteractor.swift */,
+				86952CA62CEAF43F00C44404 /* splashpagePresenter.swift */,
+				86952CA82CEAF44D00C44404 /* splashpageModel.swift */,
+				86952CAA2CEAF45C00C44404 /* splashpageRouter.swift */,
+				86952CAC2CEAF46700C44404 /* splashpageInterface.swift */,
+			);
+			path = SplashPage;
+			sourceTree = "<group>";
+		};
+		86952CAE2CEAF63100C44404 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				86952CB12CEAF6EE00C44404 /* splashData.json */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		A70903B0BAE47C59CEDF471F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EDB1974BB48ECD3259FEED8 /* Pods_GoodFoodProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B11E65153A23DD8B49A290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BD72E7CFBE50C0B6131421B /* Pods-GoodFoodProject.debug.xcconfig */,
+				04AFD7FE77B0E9043CEFEABA /* Pods-GoodFoodProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +347,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 861845F02CEA18D8007A0FD5 /* Build configuration list for PBXNativeTarget "GoodFoodProject" */;
 			buildPhases = (
+				860976D7227AF95B09F715B1 /* [CP] Check Pods Manifest.lock */,
 				861845D82CEA18D2007A0FD5 /* Sources */,
 				861845D92CEA18D2007A0FD5 /* Frameworks */,
 				861845DA2CEA18D2007A0FD5 /* Resources */,
+				98FAFFA98B199CCEA7E0E473 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +400,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861846152CEA2376007A0FD5 /* loginpageView.storyboard in Resources */,
 				861845EC2CEA18D8007A0FD5 /* LaunchScreen.storyboard in Resources */,
 				861845E92CEA18D8007A0FD5 /* Assets.xcassets in Resources */,
+				86952CB22CEAF6EE00C44404 /* splashData.json in Resources */,
+				86952CB42CEB01E400C44404 /* onboardingslideView.storyboard in Resources */,
+				86952CA12CEAF41200C44404 /* splashpageView.storyboard in Resources */,
+				8618462F2CEA2493007A0FD5 /* registerpageView.storyboard in Resources */,
 				861845E72CEA18D2007A0FD5 /* Main.storyboard in Resources */,
+				8618463D2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard in Resources */,
+				861846132CEA233E007A0FD5 /* homepageView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		860976D7227AF95B09F715B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodFoodProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FAFFA98B199CCEA7E0E473 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodFoodProject/Pods-GoodFoodProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodFoodProject/Pods-GoodFoodProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodFoodProject/Pods-GoodFoodProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		861845D82CEA18D2007A0FD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86952CC02CEB022E00C44404 /* onboardingslideInterface.swift in Sources */,
+				861846052CEA1EEF007A0FD5 /* homepageInterface.swift in Sources */,
+				861846232CEA2423007A0FD5 /* registerpageView.swift in Sources */,
 				861845E42CEA18D2007A0FD5 /* ViewController.swift in Sources */,
+				861846332CEA24C5007A0FD5 /* forgetpasswordPageInteractor.swift in Sources */,
+				86952CA72CEAF43F00C44404 /* splashpagePresenter.swift in Sources */,
+				861846312CEA24B8007A0FD5 /* forgetpasswordPageView.swift in Sources */,
+				861846172CEA2385007A0FD5 /* loginpageView.swift in Sources */,
 				861845E02CEA18D2007A0FD5 /* AppDelegate.swift in Sources */,
+				861846292CEA245B007A0FD5 /* registerpageModel.swift in Sources */,
+				86952CAD2CEAF46700C44404 /* splashpageInterface.swift in Sources */,
+				861845FD2CEA1EA5007A0FD5 /* homepageRouter.swift in Sources */,
+				861846192CEA23C0007A0FD5 /* loginpageInteractor.swift in Sources */,
+				861845FB2CEA1E94007A0FD5 /* homepageView.swift in Sources */,
+				861845FF2CEA1EC1007A0FD5 /* homepageInteractor.swift in Sources */,
+				8618463B2CEA24EF007A0FD5 /* forgetpasswordPageInterface.swift in Sources */,
+				86952CA92CEAF44D00C44404 /* splashpageModel.swift in Sources */,
+				8618461D2CEA23DD007A0FD5 /* loginpageModel.swift in Sources */,
+				86952CA32CEAF42000C44404 /* splashpageView.swift in Sources */,
+				8618462D2CEA2482007A0FD5 /* registerpageInterface.swift in Sources */,
+				86952CB82CEB020300C44404 /* onboardingslideInteractor.swift in Sources */,
+				861846032CEA1EDC007A0FD5 /* homepageModel.swift in Sources */,
+				86952CBE2CEB022300C44404 /* onboardingslideRouter.swift in Sources */,
+				861846272CEA2440007A0FD5 /* registerpagePresenter.swift in Sources */,
+				8618462B2CEA246C007A0FD5 /* registerpageRouter.swift in Sources */,
+				8618461B2CEA23D0007A0FD5 /* loginpagePresenter.swift in Sources */,
+				86952CB62CEB01F700C44404 /* onboardingslideView.swift in Sources */,
+				861846252CEA2431007A0FD5 /* registerpageInteractor.swift in Sources */,
 				861845E22CEA18D2007A0FD5 /* SceneDelegate.swift in Sources */,
+				861846372CEA24DB007A0FD5 /* forgetpasswordPageModel.swift in Sources */,
+				86952CBC2CEB021900C44404 /* onboardingslideModel.swift in Sources */,
+				86952CA52CEAF43200C44404 /* splashpageInteractor.swift in Sources */,
+				86952CBA2CEB020F00C44404 /* onboardingslidePresenter.swift in Sources */,
+				86952CAB2CEAF45C00C44404 /* splashpageRouter.swift in Sources */,
+				861846352CEA24D2007A0FD5 /* forgetpasswordPagePresenter.swift in Sources */,
+				861846212CEA2405007A0FD5 /* loginpageRouter.swift in Sources */,
+				861846012CEA1ECC007A0FD5 /* homepagePresenter.swift in Sources */,
+				861846392CEA24E6007A0FD5 /* forgetpasswordPageRouter.swift in Sources */,
+				8618461F2CEA23F4007A0FD5 /* loginpageInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,19 +647,20 @@
 		};
 		861845F12CEA18D8007A0FD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD72E7CFBE50C0B6131421B /* Pods-GoodFoodProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQAZK5DLDC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoodFoodProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,19 +676,20 @@
 		};
 		861845F22CEA18D8007A0FD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AFD7FE77B0E9043CEFEABA /* Pods-GoodFoodProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQAZK5DLDC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoodFoodProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
