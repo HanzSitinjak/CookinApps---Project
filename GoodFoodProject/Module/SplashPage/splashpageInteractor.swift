@@ -22,7 +22,7 @@ class splashpageInteractor: splashpageInteractorProtocol {
             let splashPageModel = try JSONDecoder().decode(splashpageModel.self, from: data)
             completion(splashPageModel)
         } catch {
-            print("Gagal mengambil data, yang ada!")
+            print("Gagal mengambil data, yang ada saat ini!")
             completion(nil)
         }
     }
