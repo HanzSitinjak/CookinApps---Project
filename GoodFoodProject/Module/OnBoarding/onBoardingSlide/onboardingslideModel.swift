@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import UIKit
+
+struct OnBoardingModel: Codable {
+    var imgOnBoarding: String
+    var nameOfApps: String
+    var subtitleOnboarding: String
+}

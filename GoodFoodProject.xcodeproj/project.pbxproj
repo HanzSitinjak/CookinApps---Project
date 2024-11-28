@@ -57,6 +57,23 @@
 		86952CBE2CEB022300C44404 /* onboardingslideRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */; };
 		86952CC02CEB022E00C44404 /* onboardingslideInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */; };
 		86952CC22CEB341800C44404 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 86952CC12CEB341800C44404 /* README.md */; };
+		86952CC42CEB3DA300C44404 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CC32CEB3DA300C44404 /* UIColor.swift */; };
+		86952CC62CEB3F1100C44404 /* buttonWithFillColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CC52CEB3F1100C44404 /* buttonWithFillColor.swift */; };
+		86952CC82CEB3F2400C44404 /* buttonOnlyOutlineColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CC72CEB3F2400C44404 /* buttonOnlyOutlineColor.swift */; };
+		86952CCA2CEB4E9D00C44404 /* onboardingfinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CC92CEB4E9D00C44404 /* onboardingfinalView.swift */; };
+		86952CCC2CEB4EAE00C44404 /* onboardingfinalInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CCB2CEB4EAE00C44404 /* onboardingfinalInteractor.swift */; };
+		86952CCE2CEB4EC500C44404 /* onboardingfinalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CCD2CEB4EC500C44404 /* onboardingfinalPresenter.swift */; };
+		86952CD02CEB4EDF00C44404 /* onboardingfinalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CCF2CEB4EDF00C44404 /* onboardingfinalModel.swift */; };
+		86952CD22CEB4EF100C44404 /* onboardingfinalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CD12CEB4EF100C44404 /* onboardingfinalRouter.swift */; };
+		86952CD42CEB4EFE00C44404 /* onboardingfinalInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86952CD32CEB4EFE00C44404 /* onboardingfinalInterface.swift */; };
+		86952CD62CEB4F4D00C44404 /* onboardingfinalView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86952CD52CEB4F4D00C44404 /* onboardingfinalView.storyboard */; };
+		86DE44BA2CEF1A5100E5F7EB /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86DE44B52CEF1A5100E5F7EB /* Poppins-Light.ttf */; };
+		86DE44BB2CEF1A5100E5F7EB /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86DE44B62CEF1A5100E5F7EB /* Poppins-SemiBold.ttf */; };
+		86DE44BC2CEF1A5100E5F7EB /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86DE44B72CEF1A5100E5F7EB /* Poppins-Regular.ttf */; };
+		86DE44BD2CEF1A5100E5F7EB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86DE44B82CEF1A5100E5F7EB /* Poppins-Bold.ttf */; };
+		86DE44BE2CEF1A5100E5F7EB /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86DE44B92CEF1A5100E5F7EB /* Poppins-Medium.ttf */; };
+		86DE44C02CEF26B400E5F7EB /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE44BF2CEF26B400E5F7EB /* OnBoardingSlide.swift */; };
+		86DE44C22CEF315400E5F7EB /* onBoardingViewData.json in Resources */ = {isa = PBXBuildFile; fileRef = 86DE44C12CEF315400E5F7EB /* onBoardingViewData.json */; };
 		F8D6A8FA54FA7E0128C54358 /* Pods_GoodFoodProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB1974BB48ECD3259FEED8 /* Pods_GoodFoodProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +133,23 @@
 		86952CBD2CEB022300C44404 /* onboardingslideRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideRouter.swift; sourceTree = "<group>"; };
 		86952CBF2CEB022E00C44404 /* onboardingslideInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingslideInterface.swift; sourceTree = "<group>"; };
 		86952CC12CEB341800C44404 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		86952CC32CEB3DA300C44404 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		86952CC52CEB3F1100C44404 /* buttonWithFillColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonWithFillColor.swift; sourceTree = "<group>"; };
+		86952CC72CEB3F2400C44404 /* buttonOnlyOutlineColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonOnlyOutlineColor.swift; sourceTree = "<group>"; };
+		86952CC92CEB4E9D00C44404 /* onboardingfinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingfinalView.swift; sourceTree = "<group>"; };
+		86952CCB2CEB4EAE00C44404 /* onboardingfinalInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingfinalInteractor.swift; sourceTree = "<group>"; };
+		86952CCD2CEB4EC500C44404 /* onboardingfinalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingfinalPresenter.swift; sourceTree = "<group>"; };
+		86952CCF2CEB4EDF00C44404 /* onboardingfinalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingfinalModel.swift; sourceTree = "<group>"; };
+		86952CD12CEB4EF100C44404 /* onboardingfinalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingfinalRouter.swift; sourceTree = "<group>"; };
+		86952CD32CEB4EFE00C44404 /* onboardingfinalInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingfinalInterface.swift; sourceTree = "<group>"; };
+		86952CD52CEB4F4D00C44404 /* onboardingfinalView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onboardingfinalView.storyboard; sourceTree = "<group>"; };
+		86DE44B52CEF1A5100E5F7EB /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		86DE44B62CEF1A5100E5F7EB /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		86DE44B72CEF1A5100E5F7EB /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		86DE44B82CEF1A5100E5F7EB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		86DE44B92CEF1A5100E5F7EB /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../../../../Downloads/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		86DE44BF2CEF26B400E5F7EB /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		86DE44C12CEF315400E5F7EB /* onBoardingViewData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onBoardingViewData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +299,13 @@
 		86952C9A2CEAEECD00C44404 /* onBoardingFinal */ = {
 			isa = PBXGroup;
 			children = (
+				86952CC92CEB4E9D00C44404 /* onboardingfinalView.swift */,
+				86952CCB2CEB4EAE00C44404 /* onboardingfinalInteractor.swift */,
+				86952CCD2CEB4EC500C44404 /* onboardingfinalPresenter.swift */,
+				86952CCF2CEB4EDF00C44404 /* onboardingfinalModel.swift */,
+				86952CD12CEB4EF100C44404 /* onboardingfinalRouter.swift */,
+				86952CD32CEB4EFE00C44404 /* onboardingfinalInterface.swift */,
+				86952CD52CEB4F4D00C44404 /* onboardingfinalView.storyboard */,
 			);
 			path = onBoardingFinal;
 			sourceTree = "<group>";
@@ -293,6 +334,8 @@
 		86952C9D2CEAEF6200C44404 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				86DE44A52CEF0B4200E5F7EB /* Fonts */,
+				86952CC32CEB3DA300C44404 /* UIColor.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -300,6 +343,9 @@
 		86952C9E2CEAEF6C00C44404 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				86952CC52CEB3F1100C44404 /* buttonWithFillColor.swift */,
+				86952CC72CEB3F2400C44404 /* buttonOnlyOutlineColor.swift */,
+				86DE44BF2CEF26B400E5F7EB /* OnBoardingSlide.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -322,8 +368,21 @@
 			isa = PBXGroup;
 			children = (
 				86952CB12CEAF6EE00C44404 /* splashData.json */,
+				86DE44C12CEF315400E5F7EB /* onBoardingViewData.json */,
 			);
 			path = ModelData;
+			sourceTree = "<group>";
+		};
+		86DE44A52CEF0B4200E5F7EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				86DE44B82CEF1A5100E5F7EB /* Poppins-Bold.ttf */,
+				86DE44B52CEF1A5100E5F7EB /* Poppins-Light.ttf */,
+				86DE44B92CEF1A5100E5F7EB /* Poppins-Medium.ttf */,
+				86DE44B72CEF1A5100E5F7EB /* Poppins-Regular.ttf */,
+				86DE44B62CEF1A5100E5F7EB /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		A70903B0BAE47C59CEDF471F /* Frameworks */ = {
@@ -404,11 +463,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				861846152CEA2376007A0FD5 /* loginpageView.storyboard in Resources */,
+				86DE44BB2CEF1A5100E5F7EB /* Poppins-SemiBold.ttf in Resources */,
+				86DE44BA2CEF1A5100E5F7EB /* Poppins-Light.ttf in Resources */,
+				86DE44C22CEF315400E5F7EB /* onBoardingViewData.json in Resources */,
+				86DE44BD2CEF1A5100E5F7EB /* Poppins-Bold.ttf in Resources */,
+				86DE44BE2CEF1A5100E5F7EB /* Poppins-Medium.ttf in Resources */,
 				861845EC2CEA18D8007A0FD5 /* LaunchScreen.storyboard in Resources */,
 				861845E92CEA18D8007A0FD5 /* Assets.xcassets in Resources */,
 				86952CB22CEAF6EE00C44404 /* splashData.json in Resources */,
 				86952CB42CEB01E400C44404 /* onboardingslideView.storyboard in Resources */,
+				86952CD62CEB4F4D00C44404 /* onboardingfinalView.storyboard in Resources */,
 				86952CA12CEAF41200C44404 /* splashpageView.storyboard in Resources */,
+				86DE44BC2CEF1A5100E5F7EB /* Poppins-Regular.ttf in Resources */,
 				8618462F2CEA2493007A0FD5 /* registerpageView.storyboard in Resources */,
 				861845E72CEA18D2007A0FD5 /* Main.storyboard in Resources */,
 				8618463D2CEA24FC007A0FD5 /* forgetpasswordPageView.storyboard in Resources */,
@@ -480,6 +546,7 @@
 				861845FD2CEA1EA5007A0FD5 /* homepageRouter.swift in Sources */,
 				861846192CEA23C0007A0FD5 /* loginpageInteractor.swift in Sources */,
 				861845FB2CEA1E94007A0FD5 /* homepageView.swift in Sources */,
+				86952CC62CEB3F1100C44404 /* buttonWithFillColor.swift in Sources */,
 				861845FF2CEA1EC1007A0FD5 /* homepageInteractor.swift in Sources */,
 				8618463B2CEA24EF007A0FD5 /* forgetpasswordPageInterface.swift in Sources */,
 				86952CA92CEAF44D00C44404 /* splashpageModel.swift in Sources */,
@@ -488,19 +555,28 @@
 				8618462D2CEA2482007A0FD5 /* registerpageInterface.swift in Sources */,
 				86952CB82CEB020300C44404 /* onboardingslideInteractor.swift in Sources */,
 				861846032CEA1EDC007A0FD5 /* homepageModel.swift in Sources */,
+				86DE44C02CEF26B400E5F7EB /* OnBoardingSlide.swift in Sources */,
+				86952CD42CEB4EFE00C44404 /* onboardingfinalInterface.swift in Sources */,
 				86952CBE2CEB022300C44404 /* onboardingslideRouter.swift in Sources */,
 				861846272CEA2440007A0FD5 /* registerpagePresenter.swift in Sources */,
 				8618462B2CEA246C007A0FD5 /* registerpageRouter.swift in Sources */,
+				86952CC82CEB3F2400C44404 /* buttonOnlyOutlineColor.swift in Sources */,
+				86952CD02CEB4EDF00C44404 /* onboardingfinalModel.swift in Sources */,
 				8618461B2CEA23D0007A0FD5 /* loginpagePresenter.swift in Sources */,
 				86952CB62CEB01F700C44404 /* onboardingslideView.swift in Sources */,
 				861846252CEA2431007A0FD5 /* registerpageInteractor.swift in Sources */,
 				861845E22CEA18D2007A0FD5 /* SceneDelegate.swift in Sources */,
+				86952CC42CEB3DA300C44404 /* UIColor.swift in Sources */,
 				861846372CEA24DB007A0FD5 /* forgetpasswordPageModel.swift in Sources */,
 				86952CBC2CEB021900C44404 /* onboardingslideModel.swift in Sources */,
 				86952CA52CEAF43200C44404 /* splashpageInteractor.swift in Sources */,
 				86952CBA2CEB020F00C44404 /* onboardingslidePresenter.swift in Sources */,
+				86952CCA2CEB4E9D00C44404 /* onboardingfinalView.swift in Sources */,
+				86952CCE2CEB4EC500C44404 /* onboardingfinalPresenter.swift in Sources */,
 				86952CAB2CEAF45C00C44404 /* splashpageRouter.swift in Sources */,
+				86952CCC2CEB4EAE00C44404 /* onboardingfinalInteractor.swift in Sources */,
 				861846352CEA24D2007A0FD5 /* forgetpasswordPagePresenter.swift in Sources */,
+				86952CD22CEB4EF100C44404 /* onboardingfinalRouter.swift in Sources */,
 				861846212CEA2405007A0FD5 /* loginpageRouter.swift in Sources */,
 				861846012CEA1ECC007A0FD5 /* homepagePresenter.swift in Sources */,
 				861846392CEA24E6007A0FD5 /* forgetpasswordPageRouter.swift in Sources */,

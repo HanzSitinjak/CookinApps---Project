@@ -14,14 +14,28 @@ class onboardingslideRouter {
     static func createModule() -> UIViewController {
         let storyboard = UIStoryboard(name: "onboardingslideView", bundle: nil)
         let view = storyboard.instantiateViewController(withIdentifier: "onboardingslideVC") as? onboardingslideViewController
-        let router = splashpageRouter()
         
+        let router = onboardingslideRouter()
+        let presenter = onboardingslidePresenter()
+        let interactor = onboardingslideInteractor()
+        
+        presenter.view = view
+        presenter.interactor = interactor
+        presenter.router = router
+        view?.presenter = presenter
         router.viewController = view
         
         return view ?? UIViewController()
     }
+    
+    private func _toOnBoardingFinal() {
+        viewController?.navigationController?.pushViewController(onboardingfinalRouter.createModule(), animated: true)
+    }
 }
 
+
 extension onboardingslideRouter: onboardingslideRouterProtocol {
-    
+    func navigateToOnboardingFinal() {
+        self._toOnBoardingFinal()
+    }
 }
